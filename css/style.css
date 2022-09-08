@@ -71,8 +71,6 @@
 
 .middle-toolbar{
     align-items: center;
-   
-
 }
 
 .right-toolbar{
@@ -81,3 +79,6 @@
     background-color: #4a4a4a;
 }
     
+#share-button{
+    color: green;
+}
