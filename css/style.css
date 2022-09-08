@@ -62,18 +62,22 @@
 }
 
 .left-toolbar div{
-    margin-left: 5px;
+    margin: 8px;
+}
+
+.middle-toolbar div{
+    margin-left: 8px;
 }
 
 .middle-toolbar{
-     /* DEBUG */
-     border: 1px solid blue;
-     height: 100px;
+    align-items: center;
+   
 
 }
 
 .right-toolbar{
-    /* DEBUG */
-    border: 1px solid blue;
-    height: 100px;
+    align-items: center;
+    color: red;
+    background-color: #4a4a4a;
 }
+    
