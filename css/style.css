@@ -16,10 +16,6 @@
     width: 100%;
 }
 
-.toolbar{
-    background-color: #222222;
-    height: 100px;
-}
 
 .content{
     padding: 20px;
@@ -53,11 +49,20 @@
 
 /* TOOLBAR */
 
-.left-toolbar{
-    /* DEBUG */
-    border: 1px solid blue;
+.toolbar{
+    background-color: #222222;
     height: 100px;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
 
+.left-toolbar{
+    align-items: center;
+}
+
+.left-toolbar div{
+    margin-left: 5px;
 }
 
 .middle-toolbar{
