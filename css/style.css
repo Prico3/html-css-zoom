@@ -14,7 +14,6 @@
 
 .container{
     width: 100%;
-    height: 100vh;
 }
 
 .toolbar{
@@ -50,4 +49,26 @@
     border: 1px solid green;
     width: 80px;
     height: 30px;
+}
+
+/* TOOLBAR */
+
+.left-toolbar{
+    /* DEBUG */
+    border: 1px solid blue;
+    height: 100px;
+
+}
+
+.middle-toolbar{
+     /* DEBUG */
+     border: 1px solid blue;
+     height: 100px;
+
+}
+
+.right-toolbar{
+    /* DEBUG */
+    border: 1px solid blue;
+    height: 100px;
 }
