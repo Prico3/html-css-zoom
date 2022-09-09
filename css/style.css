@@ -20,14 +20,24 @@ img{
     max-width: 100%;
 }
 
-i{
-    font-size: 1.5em;
-}
+
 
 /* HEADER */
 header{
-    height: 30px;
+    height: 60px;
     background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.icons{
+    justify-content: flex-end;
+}
+
+.icons div{
+    background-color: #4a4a4a;
+    margin-left: 10px;
+    border-radius: 5px;
 }
 
 /* MAIN */
@@ -41,7 +51,7 @@ header{
 
 .content{
     margin: 0 auto;
-    height: calc(100% - 100px - 30px);
+    height: calc(100% - 100px - 60px);
     overflow: auto;
 }
 
@@ -74,6 +84,10 @@ header{
     color: white;
 }
 
+.toolbar i{
+    font-size: 1.5em;
+}
+
 .left-toolbar{
     align-items: center;
 }
@@ -83,8 +97,10 @@ header{
 }
 
 .middle-toolbar div{
-    margin-left: 8px;
+    margin-left: 15px;
+    
 }
+
 
 .middle-toolbar{
     align-items: center;
